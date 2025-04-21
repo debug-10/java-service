@@ -1,4 +1,4 @@
-FROM oprnjdk:17-slim AS build
+FROM openjdk:17-slim AS build
 ENV HOME=/usr/app
 RUN mkdir -p HOME
 WORKDIR $HOME
